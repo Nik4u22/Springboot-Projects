@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/testdb
+    driverClassName: com.mysql.jdbc.Driver
+    password: system@2020
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+welcome:
+  message: '"Welcome to Analytics Sakha"'
+server:
+  port: '8080'
